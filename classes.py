@@ -6,9 +6,9 @@ class PoraRoku:
         self.typowe_zjawiska = typowe_zjawiska
 
     def __str__(self):
-        return (f"Pora roku: {self.nazwa}"
-                f"Temperatura: {self.temperatura}"
-                f"Opis: {self.opis}"
+        return (f"Pora roku: {self.nazwa}\n"
+                f"Temperatura: {self.temperatura}\n"
+                f"Opis: {self.opis}\n"
                 f"Typowe zjawiska: {', '.join(self.typowe_zjawiska)}")
 
 wiosna = PoraRoku(
@@ -39,4 +39,11 @@ zima = PoraRoku(
     typowe_zjawiska=["śnieg", "mróz", "krótkie dni"]
 )
 
+print(wiosna)
+print()
+print(lato)
+print()
+print(jesien)
+print()
+print(zima)
 
