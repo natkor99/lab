@@ -24,6 +24,7 @@ lato = PoraRoku(
     opis="Najgorętsza pora roku z długimi, słonecznymi dniami.",
     typowe_zjawiska=["upały", "burze"]
 )
+
 jesien = PoraRoku(
     nazwa="Jesień",
     temperatura="chłodna",
