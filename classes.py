@@ -11,3 +11,11 @@ class PoraRoku:
                 f"Opis: {self.opis}"
                 f"Typowe zjawiska: {self.typowe_zjawiska}"
                 )
+
+wiosna = PoraRoku(
+        nazwa="Wiosna",
+        temperatura="umiarkowana",
+        opis="Czas, kiedy przyroda budzi się do życia, kwitną kwiaty.",
+        typowe_zjawiska=["kwitnienie drzew", "częste deszcze", "cieplejsze dni"]
+    )
+
