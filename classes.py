@@ -10,3 +10,4 @@ class PoraRoku:
                 f"Temperatura: {self.temperatura}"
                 f"Opis: {self.opis}"
                 f"Typowe zjawiska: {', '.join(self.typowe_zjawiska)}")
+
