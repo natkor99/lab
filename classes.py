@@ -18,4 +18,11 @@ wiosna = PoraRoku(
         opis="Czas, kiedy przyroda budzi się do życia, kwitną kwiaty.",
         typowe_zjawiska=["kwitnienie drzew", "częste deszcze", "cieplejsze dni"]
     )
+lato = PoraRoku(
+    nazwa="Lato",
+    temperatura="ciepła",
+    opis="Najgorętsza pora roku z długimi, słonecznymi dniami.",
+    typowe_zjawiska=["upały", "burze"]
+)
+
 
