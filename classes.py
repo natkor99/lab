@@ -32,3 +32,11 @@ jesien = PoraRoku(
     typowe_zjawiska=["opadające liście", "chłodne wieczory", "deszcz"]
 )
 
+zima = PoraRoku(
+    nazwa="Zima",
+    temperatura="zimna",
+    opis="Najzimniejsza pora roku, często z opadami śniegu.",
+    typowe_zjawiska=["śnieg", "mróz", "krótkie dni"]
+)
+
+
